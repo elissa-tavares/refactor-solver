@@ -16,7 +16,7 @@ Este script Python foi desenvolvido para facilitar a extração das classes dos 
 
 ### Instalação e Configuração:
     1. Certifique-se de ter o Python instalado em seu sistema.
-    2. Faça o download do script.
+    2. Faça o clone do código do script.
 
 ### Execução do Script:
 
