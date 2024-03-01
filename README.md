@@ -2,7 +2,7 @@
 
 Este script Python foi desenvolvido para facilitar a extração das classes dos arquivos "Solver.java" das questões de Programação Orientada a Objetos (POO) do repositório [Arcade](https://github.com/qxcodepoo/arcade), baixados através do [TKO - Test Kit Operations](https://github.com/senapk/tko). O objetivo é proporcionar uma maneira simples de extrair as classes presentes em Solver para promover uma separação facilitando a análise e o desenvolvimento de soluções.
 
-## Funcionalidades:
+## Funcionalidades 🛠️
 
 ### Extração de Classes dos Arquivos "Solver.java":
 - O script analisa os arquivos "Solver.java" presentes nos pacotes correspondentes a cada questão baixada do repositório "Arcade" pelo TKO.
@@ -12,7 +12,7 @@ Este script Python foi desenvolvido para facilitar a extração das classes dos 
 - Para cada classe extraída, o script cria um novo arquivo Java no mesmo diretório em que o arquivo "Solver.java" original estava localizado.
 - O nome do arquivo Java é baseado no nome da classe extraída.
 
-## Como Usar:
+## Como Usar 📝
 
 ### Instalação e Configuração:
     1. Certifique-se de ter o Python instalado em seu sistema.
@@ -43,10 +43,23 @@ create_class_files("/caminho/do/seu/diretorio/base/POO_IS_FUN")
 
 4 - Ele procurará por arquivos "Solver.java" nos subdiretórios do diretório base, extrairá as classes e criará novos arquivos Java para cada classe extraída.
 
-
-## Observações:
+### Observações:
 
 - Este script foi desenvolvido para operar exclusivamente com os padrões de arquivos e organização de pacotes do repositório "Arcade" e do "TKO", utilizando a linguagem Java.
 - Se desejar, você pode personalizar o script para atender a outros padrões ou requisitos específicos do seu projeto.
+
+
+## Contribuição 🚀
+Este script está em sua primeira versão e há espaço para muitas melhorias e evoluções. Fique à vontade para contribuir.
+
+Se você deseja contribuir, siga os passos abaixo:
+
+```bash
+git clone https://github.com/ma-elissa/refactor-solver.git
+```
+    
+    git checkout -b feature/SEU_NOME    
+
+Ao finalizar suas alterações, abra um [Pull Request](https://www.atlassian.com/br/git/tutorials/making-a-pull-request) explicando o problema resolvido ou a funcionalidade adicionada. Se possível, inclua capturas de tela das modificações visuais e aguarde a revisão!
 
 ---
